@@ -1,19 +1,39 @@
 object Form1: TForm1
-  Left = 545
+  Left = 411
   Height = 331
-  Top = 36
+  Top = 151
   Width = 553
-  Caption = 'Form1'
+  BorderIcons = [biSystemMenu, biMinimize, biMaximize, biHelp]
+  Caption = 'UPAYY'
   ClientHeight = 331
   ClientWidth = 553
+  Color = clNavy
   LCLVersion = '2.0.8.0'
   object Button1: TButton
-    Left = 32
+    Left = 168
     Height = 25
-    Top = 32
+    Top = 48
     Width = 75
-    Caption = 'Button1'
+    Caption = 'Halo'
     OnClick = button1click
     TabOrder = 0
+  end
+  object eNama: TEdit
+    Left = 32
+    Height = 23
+    Top = 48
+    Width = 102
+    TabOrder = 1
+    Text = 'eNama'
+  end
+  object Label1: TLabel
+    Left = 32
+    Height = 15
+    Top = 24
+    Width = 32
+    Caption = 'Nama'
+    Color = clWindow
+    ParentColor = False
+    Transparent = False
   end
 end
